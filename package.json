@@ -6,6 +6,9 @@
   "repository": "https://github.com/xpodev/dot-script",
   "author": "Xpo Development <dev@xpo.dev>",
   "license": "MIT",
+  "scripts": {
+    "build": "tsc"
+  },
   "bin": {
     "dot": "./bin/index.js"
   },
