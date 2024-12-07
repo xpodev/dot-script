@@ -1,0 +1,9 @@
+{
+  "name": "dotscript",
+  "version": "1.0.0",
+  "description": "Making javascript much simpler",
+  "main": "dist/index.js",
+  "repository": "https://github.com/xpodev/dotscript",
+  "author": "Xpo Development <dev@xpo.dev>",
+  "license": "MIT"
+}
