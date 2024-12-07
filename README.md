@@ -1,39 +1,39 @@
-# DotScript
+# DotsScript
 
-DotScript is a simple JavaScript library that makes your JavaScript code much simpler by making the whole code using 2 characters only, the dot `.` and the `ᱹ` character.
+DotsScript is a simple JavaScript library that makes your JavaScript code much simpler by making the whole code using 2 characters only, the `.` and the `ᱹ` character.
 
 ## Installation
 
-You can install DotScript by using the following command:
+You can install DotsScript by using the following command:
 
 ```bash
-npm install dot-script
+npm install dotsscript
 ```
 
 Or yarn:
 
 ```bash
-yarn add dot-script
+yarn add dotsscript
 ```
 
 You can also install it globally by using the following command:
 
 ```bash
-npm install -g dot-script
+npm install -g dotsscript
 ```
 
 Or yarn:
 
 ```bash
-yarn global add dot-script
+yarn global add dotsscript
 ```
 
 ## Usage
 
-You can use DotScript by importing the library in your JavaScript file:
+You can use DotsScript by importing the library in your JavaScript file:
 
 ```javascript
-import 'dot-script';
+import 'dotsscript';
 
 // Your code here
 ```
@@ -44,14 +44,14 @@ Or you can run it in the terminal by using the following command:
 dot index.ds
 ```
 
-Where `index.ds` is the file that contains your DotScript code.
+Where `index.ds` is the file that contains your DotsScript code.
 
 ## Example
 
-Here is an example of how you can use DotScript:
+Here is an example of how you can use DotsScript:
 
 ```javascript
-import 'dot-script';
+import 'dotsscript';
 
 ᱹ.ᱹᱹ.ᱹᱹᱹ.ᱹᱹ.ᱹᱹᱹᱹᱹᱹᱹᱹᱹᱹᱹᱹᱹᱹᱹ.ᱹᱹ.ᱹᱹᱹᱹᱹᱹᱹᱹᱹᱹᱹᱹᱹᱹ.ᱹᱹ.ᱹᱹᱹᱹᱹᱹᱹᱹᱹᱹᱹᱹᱹᱹᱹᱹᱹᱹᱹ.ᱹᱹ
   .ᱹᱹᱹᱹᱹᱹᱹᱹᱹᱹᱹᱹᱹᱹᱹ.ᱹᱹ.ᱹᱹᱹᱹᱹᱹᱹᱹᱹᱹᱹᱹ.ᱹᱹ.ᱹᱹᱹᱹᱹ.ᱹᱹᱹᱹᱹ.ᱹᱹᱹᱹᱹ.ᱹᱹ.ᱹᱹᱹᱹᱹᱹᱹᱹᱹᱹᱹᱹ.ᱹᱹ
@@ -71,7 +71,7 @@ As you can see, the code is much simpler and do not contain any characters that 
 
 ## Documentation
 
-The global object `ᱹ` is the main object that you can use to access the DotScript API.
+The global object `ᱹ` is the main object that you can use to access the DotsScript API.
 It contains the following properties:
 
 | Property | Description |
