@@ -1,9 +1,15 @@
 {
-  "name": "dotscript",
+  "name": "dot-script",
   "version": "1.0.0",
   "description": "Making javascript much simpler",
   "main": "dist/index.js",
-  "repository": "https://github.com/xpodev/dotscript",
+  "repository": "https://github.com/xpodev/dot-script",
   "author": "Xpo Development <dev@xpo.dev>",
-  "license": "MIT"
+  "license": "MIT",
+  "bin": {
+    "dot": "./bin/index.js"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.2"
+  }
 }

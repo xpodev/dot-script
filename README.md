@@ -7,13 +7,25 @@ DotScript is a simple JavaScript library that makes your JavaScript code much si
 You can install DotScript by using the following command:
 
 ```bash
-npm install dotscript
+npm install dot-script
 ```
 
 Or yarn:
 
 ```bash
-yarn add dotscript
+yarn add dot-script
+```
+
+You can also install it globally by using the following command:
+
+```bash
+npm install -g dot-script
+```
+
+Or yarn:
+
+```bash
+yarn global add dot-script
 ```
 
 ## Usage
@@ -21,24 +33,32 @@ yarn add dotscript
 You can use DotScript by importing the library in your JavaScript file:
 
 ```javascript
-import 'dotscript';
+import 'dot-script';
 
 // Your code here
 ```
+
+Or you can run it in the terminal by using the following command:
+
+```bash
+dot index.ds
+```
+
+Where `index.ds` is the file that contains your DotScript code.
 
 ## Example
 
 Here is an example of how you can use DotScript:
 
 ```javascript
-import 'dotscript';
+import 'dot-script';
 
 ᱹ.ᱹᱹ.ᱹᱹᱹ.ᱹᱹ.ᱹᱹᱹᱹᱹᱹᱹᱹᱹᱹᱹᱹᱹᱹᱹ.ᱹᱹ.ᱹᱹᱹᱹᱹᱹᱹᱹᱹᱹᱹᱹᱹᱹ.ᱹᱹ.ᱹᱹᱹᱹᱹᱹᱹᱹᱹᱹᱹᱹᱹᱹᱹᱹᱹᱹᱹ.ᱹᱹ
   .ᱹᱹᱹᱹᱹᱹᱹᱹᱹᱹᱹᱹᱹᱹᱹ.ᱹᱹ.ᱹᱹᱹᱹᱹᱹᱹᱹᱹᱹᱹᱹ.ᱹᱹ.ᱹᱹᱹᱹᱹ.ᱹᱹᱹᱹᱹ.ᱹᱹᱹᱹᱹ.ᱹᱹ.ᱹᱹᱹᱹᱹᱹᱹᱹᱹᱹᱹᱹ.ᱹᱹ
   .ᱹᱹᱹᱹᱹᱹᱹᱹᱹᱹᱹᱹᱹᱹᱹ.ᱹᱹ.ᱹᱹᱹᱹᱹᱹᱹ.ᱹᱹᱹᱹᱹᱹ.ᱹᱹᱹᱹᱹᱹᱹᱹᱹ.ᱹᱹᱹᱹᱹᱹ.ᱹᱹᱹ.ᱹᱹᱹ.ᱹᱹᱹᱹᱹᱹᱹᱹ.ᱹᱹ.ᱹᱹᱹᱹᱹ
   .ᱹᱹ.ᱹᱹᱹᱹᱹᱹᱹᱹᱹᱹᱹᱹ.ᱹᱹ.ᱹᱹᱹᱹᱹᱹᱹᱹᱹᱹᱹᱹ.ᱹᱹ.ᱹᱹᱹᱹᱹᱹᱹᱹᱹᱹᱹᱹᱹᱹᱹ.ᱹᱹᱹᱹᱹ.ᱹᱹᱹ.ᱹᱹᱹᱹᱹᱹ.ᱹ.ᱹᱹᱹ
   .ᱹᱹᱹᱹᱹᱹᱹᱹᱹᱹᱹᱹᱹᱹᱹᱹᱹᱹᱹᱹᱹᱹᱹ.ᱹᱹ.ᱹᱹᱹᱹᱹᱹᱹᱹᱹᱹᱹᱹᱹᱹᱹ.ᱹᱹ.ᱹᱹᱹᱹᱹᱹᱹᱹᱹᱹᱹᱹᱹᱹᱹᱹᱹᱹ.ᱹᱹ
-  .ᱹᱹᱹᱹᱹᱹᱹᱹᱹᱹᱹᱹ.ᱹᱹ.ᱹᱹᱹᱹ.ᱹᱹᱹᱹᱹᱹ.ᱹᱹ.ᱹᱹᱹᱹᱹᱹ.ᱹᱹᱹ.ᱹᱹᱹᱹᱹᱹ.ᱹᱹᱹᱹᱹᱹᱹᱹᱹᱹ.ᱹ;
+  .ᱹᱹᱹᱹᱹᱹᱹᱹᱹᱹᱹᱹ.ᱹᱹ.ᱹᱹᱹᱹ.ᱹᱹᱹᱹᱹᱹ.ᱹᱹ.ᱹᱹᱹᱹᱹᱹ.ᱹᱹᱹ.ᱹᱹᱹᱹᱹᱹ.ᱹᱹᱹᱹᱹᱹᱹᱹᱹᱹ.ᱹ
 ```
 
 This code is equivalent to the following code:
