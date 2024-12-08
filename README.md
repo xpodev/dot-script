@@ -81,8 +81,8 @@ It contains the following properties:
 | `ᱹᱹᱹ` | Upper-case letters from `A` to `Z` |
 | `ᱹᱹᱹᱹ` | Numbers from `0` to `9` |
 | `ᱹᱹᱹᱹᱹ` | Special characters `*+,-./` |
-| `ᱹᱹᱹᱹᱹᱹ` | Special characters `!"#$%&'()` |
-| `ᱹᱹᱹᱹᱹᱹᱹ` | Special characters ``[]^_` `` |
+| `ᱹᱹᱹᱹᱹᱹ` | Special characters ` !"#$%&'()` (First onw is space) |
+| `ᱹᱹᱹᱹᱹᱹᱹ` | Special characters `` []^_` ``|
 | `ᱹᱹᱹᱹᱹᱹᱹᱹ` | Special characters `:;<=>?@` |
 | `ᱹᱹᱹᱹᱹᱹᱹᱹᱹ` | Special characters `{\|}~` |
 
