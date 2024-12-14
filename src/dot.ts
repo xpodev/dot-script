@@ -1,28 +1,35 @@
-const _ᱹ = (ᱹ: ᱹᱹ, ᱹᱹ: number, ᱹᱹᱹ: number) => {
-  return (_ᱹᱹ: unknown, ᱹᱹᱹᱹ: string | symbol) => {
-    if (typeof ᱹᱹᱹᱹ === "string") {
-      const p = ᱹᱹᱹᱹ.split("");
-      if (p.some((p) => p !== "ᱹ")) {
+const ᱹᱹᱹᱹᱹᱹᱹᱹᱹᱹᱹ = (ᱹ: ᱹᱹ, ᱹᱹ: number, ᱹᱹᱹ: number) => {
+  const ᱹᱹᱹᱹᱹᱹᱹᱹ = new Map<ᱹᱹᱹ, Record<string, string>>();
+  return (ᱹᱹᱹᱹ: ᱹᱹᱹ, ᱹᱹᱹᱹᱹ: string | symbol) => {
+    if (typeof ᱹᱹᱹᱹᱹ === "string") {
+      const ᱹᱹᱹᱹᱹᱹᱹᱹᱹ = ᱹᱹᱹᱹᱹᱹᱹᱹ.get(ᱹᱹᱹᱹ) || {};
+      ᱹᱹᱹᱹᱹᱹᱹᱹ.set(ᱹᱹᱹᱹ, ᱹᱹᱹᱹᱹᱹᱹᱹᱹ);
+      if (ᱹᱹᱹᱹᱹᱹᱹᱹᱹ[ᱹᱹᱹᱹᱹ]) {
+        ᱹ.ᱹ = ᱹᱹᱹᱹᱹᱹᱹᱹᱹ[ᱹᱹᱹᱹᱹ];
+        return ᱹ;
+      }
+      const ᱹᱹᱹᱹᱹᱹ = ᱹᱹᱹᱹᱹ.split("");
+      if (ᱹᱹᱹᱹᱹᱹ.some((ᱹᱹᱹᱹᱹᱹᱹ) => ᱹᱹᱹᱹᱹᱹᱹ !== "ᱹ")) {
         return undefined;
       }
-      const char = ᱹᱹ + p.length - 1;
-      if (char > ᱹᱹᱹ) {
+      const ᱹᱹᱹᱹᱹᱹᱹ = ᱹᱹ + ᱹᱹᱹᱹᱹᱹ.length - 1;
+      if (ᱹᱹᱹᱹᱹᱹᱹ > ᱹᱹᱹ) {
         return undefined;
       }
-      ᱹ.ᱹ = String.fromCharCode(char);
+      ᱹ.ᱹ = String.fromCharCode(ᱹᱹᱹᱹᱹᱹᱹ);
       return ᱹ;
     }
   };
 };
 
 class ᱹᱹᱹ {
-  constructor(ᱹ: ᱹᱹ, ᱹᱹ: number, ᱹᱹᱹ: number) {
+  constructor(ᱹ: ᱹᱹ, ᱹᱹ: number, ᱹᱹᱹᱹ: number) {
     return new Proxy<ᱹᱹᱹ>(this, {
-      get: _ᱹ(ᱹ, ᱹᱹ, ᱹᱹᱹ),
+      get: ᱹᱹᱹᱹᱹᱹᱹᱹᱹᱹᱹ(ᱹ, ᱹᱹ, ᱹᱹᱹᱹ),
     });
   }
 
-  [key: string]: ᱹᱹ;
+  [ᱹ: string]: ᱹᱹ;
 }
 
 let ᱹᱹᱹᱹᱹᱹᱹᱹᱹᱹ: string;

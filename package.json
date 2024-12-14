@@ -7,7 +7,8 @@
   "author": "Xpo Development <dev@xpo.dev>",
   "license": "MIT",
   "scripts": {
-    "build": "tsc"
+    "build": "tsc",
+    "test": "npm install -g . && dot tests/hello-world.ds"
   },
   "bin": {
     "dot": "./bin/index.js"
