@@ -1,6 +1,6 @@
 {
   "name": "dotsscript",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Making javascript much simpler",
   "main": "dist/index.js",
   "repository": "https://github.com/xpodev/dot-script",
