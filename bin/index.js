@@ -17,7 +17,7 @@ const resolvedFile = path.resolve(process.cwd(), fileToRun);
 
 const globalModulePath = execSync('npm root -g', { encoding: 'utf-8' }).trim();
 
-const dotScriptPath = path.join(globalModulePath, 'dot-script');
+const dotScriptPath = path.join(globalModulePath, 'dotsscript');
 
 const nodeProcess = spawn(
   'node',
